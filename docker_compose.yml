@@ -1,0 +1,9 @@
+version: '2'
+services:
+  virtue:
+    image: scotthain/virtue
+    ports:
+      - "9000:9000"
+    environment:
+        - HAB_VIRTUE=port='9000' # this ideally will have the message too
+    command: start scotthain/virtue

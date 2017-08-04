@@ -1,0 +1,4 @@
+{
+	"message": "{{cfg.app.message}}",
+	"port": "{{cfg.app.port}}"
+}
